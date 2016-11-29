@@ -14,43 +14,246 @@
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-               <div class="ui card">
+        <div class="ui grid">
+        <div class=" black column">
+            <div class="one wide column"><h2 style="color:white; margin:10px; padding-top:5px;" class="ui header">Diet Share</h2></div>
+        </div>
+        
+        </div>
+  <div class="ui container">  
+      <div style="margin-top:50px;"id="plan_section">
+ <div class="ui four column grid">
+  <div class="row">
+    <div class="column">
+           <div  class="ui card">
   <div class="content">
-    <div class="header">Project Timeline</div>
+    <div class="header">Plan Name</div>
   </div>
   <div class="content">
-    <h4 class="ui sub header">Activity</h4>
-    <div class="ui small feed">
-      <div class="event">
-        <div class="content">
-          <div class="summary">
-             <a>Elliot Fu</a> added <a>Jenny Hess</a> to the project
-          </div>
-        </div>
-      </div>
-      <div class="event">
-        <div class="content">
-          <div class="summary">
-             <a>Stevie Feliciano</a> was added as an <a>Administrator</a>
-          </div>
-        </div>
-      </div>
-      <div class="event">
-        <div class="content">
-          <div class="summary">
-             <a>Helen Troy</a> added two pictures
-          </div>
-        </div>
-      </div>
-    </div>
+    <table class="ui teal table">
+  <thead>
+    <tr><th>Item</th>
+    <th>Quantity</th>
+  </tr></thead><tbody>
+    <tr>
+      <td>Apples</td>
+      <td>1</td>
+     
+    </tr>
+    <tr>
+      <td>Orange</td>
+      <td>2</td>
+    
+    </tr>
+  </tbody>
+</table>
   </div>
+
   <div class="extra content">
-    <button class="ui button">Join Project</button>
+    <button class="ui button">Share</button>
   </div>
+                   
+</div></div>
+    <div class="column">
+           <div  class="ui card">
+  <div class="content">
+    <div class="header">Plan Name</div>
+  </div>
+  <div class="content">
+    <table class="ui teal table">
+  <thead>
+    <tr><th>Item</th>
+    <th>Quantity</th>
+  </tr></thead><tbody>
+    <tr>
+      <td>Apples</td>
+      <td>1</td>
+     
+    </tr>
+    <tr>
+      <td>Orange</td>
+      <td>2</td>
+    
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+  <div class="extra content">
+    <button class="ui button">Share</button>
+  </div>
+                   
+</div></div>
+    <div class="column">
+      
+         <div  class="ui card">
+  <div class="content">
+    <div class="header">Plan Name</div>
+  </div>
+  <div class="content">
+    <table class="ui teal table">
+  <thead>
+    <tr><th>Item</th>
+    <th>Quantity</th>
+  </tr></thead><tbody>
+    <tr>
+      <td>Apples</td>
+      <td>1</td>
+     
+    </tr>
+    <tr>
+      <td>Orange</td>
+      <td>2</td>
+    
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+  <div class="extra content">
+    <button class="ui button">Share</button>
+  </div>
+                   
 </div>
-            </div>
+      </div>
+  
+  <div class="column">
+     
+        <div  class="ui card">
+  <div class="content">
+    <div class="header">Plan Name</div>
+  </div>
+  <div class="content">
+    <table class="ui teal table">
+  <thead>
+    <tr><th>Item</th>
+    <th>Quantity</th>
+  </tr></thead><tbody>
+    <tr>
+      <td>Apples</td>
+      <td>1</td>
+     
+    </tr>
+    <tr>
+      <td>Orange</td>
+      <td>2</td>
+    
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+  <div class="extra content">
+    <button class="ui button">Share</button>
+  </div>
+                   
+</div>
+     </div>
+  <div class="column">
+     
+        <div  class="ui card">
+  <div class="content">
+    <div class="header">Plan Name</div>
+  </div>
+  <div class="content">
+    <table class="ui teal table">
+  <thead>
+    <tr><th>Item</th>
+    <th>Quantity</th>
+  </tr></thead><tbody>
+    <tr>
+      <td>Apples</td>
+      <td>1</td>
+     
+    </tr>
+    <tr>
+      <td>Orange</td>
+      <td>2</td>
+    
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+  <div class="extra content">
+    <button class="ui button">Share</button>
+  </div>
+                   
+</div>
+     
+     </div>
+  <div class="column">
+     
+        <div  class="ui card">
+  <div class="content">
+    <div class="header">Plan Name</div>
+  </div>
+  <div class="content">
+    <table class="ui teal table">
+  <thead>
+    <tr><th>Item</th>
+    <th>Quantity</th>
+  </tr></thead><tbody>
+    <tr>
+      <td>Apples</td>
+      <td>1</td>
+     
+    </tr>
+    <tr>
+      <td>Orange</td>
+      <td>2</td>
+    
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+  <div class="extra content">
+    <button class="ui button">Share</button>
+  </div>
+                   
+</div>
+     
+     
+     </div>
+  <div class="column">
+     
+     
+        <div  class="ui card">
+  <div class="content">
+    <div class="header">Plan Name</div>
+  </div>
+  <div class="content">
+    <table class="ui teal table">
+  <thead>
+    <tr><th>Item</th>
+    <th>Quantity</th>
+  </tr></thead><tbody>
+    <tr>
+      <td>Apples</td>
+      <td>1</td>
+     
+    </tr>
+    <tr>
+      <td>Orange</td>
+      <td>2</td>
+    
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+  <div class="extra content">
+    <button class="ui button">Share</button>
+  </div>
+                   
+</div>
+     
+     </div>
+</div>
+     </div>
+      </div>
         </div>
+       
     </body>
 </html>
