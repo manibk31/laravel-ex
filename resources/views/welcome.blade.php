@@ -3,42 +3,53 @@
     <head>
         <title>Laravel</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="{{asset('/dist/semantic.min.css')}}">
+<script src="{{asset('/dist/semantic.min.js')"}}></script>
 
         <style>
             html, body {
                 height: 100%;
             }
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Works</div>
+               <div class="ui card">
+  <div class="content">
+    <div class="header">Project Timeline</div>
+  </div>
+  <div class="content">
+    <h4 class="ui sub header">Activity</h4>
+    <div class="ui small feed">
+      <div class="event">
+        <div class="content">
+          <div class="summary">
+             <a>Elliot Fu</a> added <a>Jenny Hess</a> to the project
+          </div>
+        </div>
+      </div>
+      <div class="event">
+        <div class="content">
+          <div class="summary">
+             <a>Stevie Feliciano</a> was added as an <a>Administrator</a>
+          </div>
+        </div>
+      </div>
+      <div class="event">
+        <div class="content">
+          <div class="summary">
+             <a>Helen Troy</a> added two pictures
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="extra content">
+    <button class="ui button">Join Project</button>
+  </div>
+</div>
             </div>
         </div>
     </body>
