@@ -15,9 +15,18 @@
     </head>
     <body>
         <div class="ui grid">
+            
         <div class="black column">
-            <div class="one wide column"><h2 style="color:white; margin:10px; padding-top:5px;" class="ui header">Diet Share</h2></div>
+            <div class="row">
+            <div class="left floated one wide column"><h2 style="color:white; margin:10px; padding-top:5px;" class="ui header">Diet Share</h2></div>
+         
+            <button style="margin-top:-40px; margin-right:15px;" class="right floated two wide ui primary button">
+                 Add new plan
+                
+                </div>
+ 
         </div>
+                </div>
         
         </div>
   <div class="ui container">  
