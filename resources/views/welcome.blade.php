@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="ui grid">
-        <div class=" black column">
+        <div class="black column">
             <div class="one wide column"><h2 style="color:white; margin:10px; padding-top:5px;" class="ui header">Diet Share</h2></div>
         </div>
         
@@ -24,7 +24,7 @@
       <div style="margin-top:50px;"id="plan_section">
  <div class="ui four column grid">
   <div class="row">
-    <div class="column">
+    <div style="margin-top:10px" class="column">
            <div  class="ui card">
   <div class="content">
     <div class="header">Plan Name</div>
@@ -54,7 +54,7 @@
   </div>
                    
 </div></div>
-    <div class="column">
+    <div style="margin-top:10px"  class="column">
            <div  class="ui card">
   <div class="content">
     <div class="header">Plan Name</div>
@@ -84,7 +84,7 @@
   </div>
                    
 </div></div>
-    <div class="column">
+    <div style="margin-top:10px"  class="column">
       
          <div  class="ui card">
   <div class="content">
@@ -117,7 +117,7 @@
 </div>
       </div>
   
-  <div class="column">
+  <div style="margin-top:10px"  class="column">
      
         <div  class="ui card">
   <div class="content">
@@ -149,7 +149,7 @@
                    
 </div>
      </div>
-  <div class="column">
+  <div style="margin-top:10px"  class="column">
      
         <div  class="ui card">
   <div class="content">
@@ -182,7 +182,7 @@
 </div>
      
      </div>
-  <div class="column">
+  <div style="margin-top:10px"  class="column">
      
         <div  class="ui card">
   <div class="content">
@@ -216,7 +216,7 @@
      
      
      </div>
-  <div class="column">
+  <div style="margin-top:10px"  class="column">
      
      
         <div  class="ui card">
