@@ -4,7 +4,7 @@
         <title>Laravel</title>
 
         <link rel="stylesheet" type="text/css" href="{{asset('/dist/semantic.min.css')}}">
-<script src="{{asset('/dist/semantic.min.js')"}}></script>
+<script src="{{asset('/dist/semantic.min.js')}}"></script>
 
         <style>
             html, body {
