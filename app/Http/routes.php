@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', array('as'=>'/', 'uses'=>'PlanController@getPlans'));
+Route::post('/postplan', array('as'=>'addplan', 'uses'=>'PlanController@postPlan'));
