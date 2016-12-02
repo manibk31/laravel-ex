@@ -40,4 +40,12 @@ class PlanController extends Controller
         }
         return view('welcome')->with('plans',$plans)->with('plan_count',$plan_count);
     }   
+    function deletePlan($plan_id)
+    {
+        $plan=new ds_plan;
+        $plan_to_delete=$plan::where('id',$plan_id);
+        $plan_to_delete->delete();
+        
+        return redirect()->route('/')->with('info','Plan Deleted!');
+    }
 }

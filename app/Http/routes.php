@@ -11,5 +11,8 @@
 |
 */
 
+
+
 Route::get('/', array('as'=>'/', 'uses'=>'PlanController@getPlans'));
 Route::post('/postplan', array('as'=>'addplan', 'uses'=>'PlanController@postPlan'));
+Route::post('/delete/{plan_id}',array('as'=>'delete','uses'=>'PlanController@deletePlan'));

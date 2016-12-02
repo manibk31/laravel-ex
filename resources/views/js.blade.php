@@ -9,7 +9,9 @@
       <i class="thumbs up icon"></i>
     </div>
     <div class="description">
-      <p>Your plan has been addedd succesfully!</p>
+        
+      <p>{{Session::get('info')}}</p>
+      
     </div>
   </div>
   <div class="actions">
@@ -23,6 +25,7 @@
   </div>
 </div>
 <script>
+  
 $(document).ready(
     
     function(){

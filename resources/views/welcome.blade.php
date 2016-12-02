@@ -21,7 +21,7 @@
                <div class="left floated one wide column">
                   <h2 style="color:white; margin:10px; padding-top:5px;" class="ui header">Diet Share</h2>
                </div>
-               <button id="addplan" style="margin-top:-40px; margin-right:15px;" class="right floated two wide ui primary button">
+               <button onclick="event.preventDefault();" id="addplan" style="margin-top:-40px; margin-right:15px;" class="right floated two wide ui primary button">
                   Add new plan
             </div>
          </div>
@@ -65,7 +65,12 @@
       </table>
       </div>
       <div class="extra content">
-      <button class="ui button">Share</button>
+        <form method="post" action="{{route('delete',['plan_id'=>$plans->id])}}">
+             {{ csrf_field() }}
+      <button type="submit" class="ui button">Remove</button>
+                            
+          </form>
+          
       </div>
       </div>
       </div>
@@ -104,7 +109,11 @@
       </table>
       </div>
       <div class="extra content">
-      <button class="ui button">Share</button>
+         <form method="post" action="{{route('delete',['plan_id'=>$plan->id])}}">
+              {{ csrf_field() }}
+      <button type="submit" class="ui button">Remove</button>
+                            
+          </form>
       </div>
       </div>
       </div>
@@ -194,6 +203,10 @@
 
          </div>
       </div>
+          @if(Session::has('info'))
+          @include('js');
+          @endif
+           {{Session::forget('info')}}
       <script type="text/javascript">
          $(document).ready(function () {
               $('#addplan').click(
@@ -209,8 +222,6 @@
          });
          
       </script>
-          @if(Session::has('info'))
-          @include('js');
-          @endif
+          
    </body>
 </html>
