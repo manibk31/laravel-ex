@@ -68,6 +68,7 @@
         <form method="post" action="{{route('delete',['plan_id'=>$plans->id])}}">
              {{ csrf_field() }}
       <button type="submit" class="ui button">Remove</button>
+            <button onclick="return showShare()" class="ui button">Share</button>
                             
           </form>
           
@@ -111,7 +112,8 @@
       <div class="extra content">
          <form method="post" action="{{route('delete',['plan_id'=>$plan->id])}}">
               {{ csrf_field() }}
-      <button type="submit" class="ui button">Remove</button>
+      <button  class="ui button">Remove</button>
+      <button onclick="return showShare()" class="ui button">Share</button>
                             
           </form>
       </div>
@@ -135,8 +137,28 @@
           
       </div>
       </div>
-      <!-- MODAL -->
-      <div class="ui modal">
+      <!-- MODALS -->
+       
+       <div  id="share" class="ui modal" style="width:350px;margin-left:-180px;">
+  <i class="close icon"></i>
+  <div class="header">
+    Share Now
+  </div>
+           <div class="content">
+           <div class="ui three column grid">
+      <div class="column"><i class="facebook f icon large blue"></i></div>
+      <div class="column"><i class="twitter icon large teal"></i></div>
+      <div class="column"><i class="google plus icon large red"></i></div>
+    </div>
+           </div>
+          
+           
+       </div>
+       
+       
+       
+       
+      <div id="add" class="ui modal">
          <i class="close icon"></i>
          <div class="header">
             Add a new plan
@@ -213,13 +235,19 @@
          function()
          {
            
-            $('.ui.modal')
+            $('#add')
             .modal('show');
                 
          }
          );
          //your code here
          });
+        function showShare()
+          {
+               $('#share')
+            .modal('show');
+              return false;
+          }
          
       </script>
           
